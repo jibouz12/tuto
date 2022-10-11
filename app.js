@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 
   
   app.use((req, res) => {
-    res.json({ message: "l'API est en ligne !" }); 
+    res.json({ message: "UPDATE !" }); 
  });
 
 module.exports = app;
